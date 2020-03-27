@@ -76,7 +76,7 @@
 
                     <h3>Список компаний</h3>  
 
-                    <ol class="row align-content-vertical col-md-9">
+                    <ol class="row align-content-vertical col-md-7">
                         <c:forEach var="company" items="${listCompanies}">
                             <li>${company.name}. ${company.form}. ${company.address}. ${company.email}</li>
                             </c:forEach>

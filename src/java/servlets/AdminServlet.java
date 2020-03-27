@@ -7,6 +7,7 @@ package servlets;
 
 import entitys.Account;
 import entitys.Company;
+import entitys.History;
 import entitys.User;
 import java.io.IOException;
 import java.util.List;
@@ -107,6 +108,8 @@ public class AdminServlet extends HttpServlet {
             case "/listAccounts":
                 List<Account> listAccounts = accountFacade.findAll();
                 request.setAttribute("listAccounts", listAccounts);
+                List<History> listHistories = historyFacade.findTookAccount();
+                request.setAttribute("listHistories", listHistories);
                 request.getRequestDispatcher("/listAccounts.jsp")
                         .forward(request, response);
                 break;

@@ -38,7 +38,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contacts.jsp">Контакты</a>
                                 <li class="nav-item">
-                                <a class="nav-link" href="index1.jsp">Выход</a>
+                                <a class="nav-link" href="index1.jsp">Вход</a>
                             </li>
                            
                         </ul>
@@ -69,7 +69,7 @@
                 <h2>Контактные данные</h2>
                 <div class="address">
                     <p><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+37255613771">+372 5561 3771</a></p>
-                    <p><i class="fa fa-envelope-o"></i> <a href="mailto:example@mail.com">example@mail.com</a></p>
+                    <p><i class="fa fa-envelope-o"></i> <a href="mailto:example@mail.com">perfectpluss@mail.ru</a></p>
                     <p><i class="fa fa-map-marker" aria-hidden="true"></i> Нарва, Кангеласте 9</p>
                     <p><i class="fa fa-clock-o" aria-hidden="true"></i> пн-пт: 10:00 - 11:00</p>
                 </div>

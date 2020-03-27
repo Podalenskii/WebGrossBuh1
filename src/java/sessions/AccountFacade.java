@@ -6,6 +6,8 @@
 package sessions;
 
 import entitys.Account;
+import entitys.History;
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -27,6 +29,10 @@ public class AccountFacade extends AbstractFacade<Account> {
 
     public AccountFacade() {
         super(Account.class);
+    }
+
+    public List<History> findTookAccount() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

@@ -60,7 +60,7 @@
                         <div class="row align-middle">
                             <div class="col-12 col-md-3">
                                 <div class="btn-group-vertical-auto">
-                                    <br>
+                                    
                                     <a href="newAccount" class="list-group-item list-group-item-action">Добавить счет</a>
                                     <a href="listAccounts" class="list-group-item list-group-item-action">Список счетов</a>
                                     <a href="listCompanies" class="list-group-item list-group-item-action ">Список компаний</a>
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                     </div>  
-
+                            <br><br>
                     <footer>
                         <div class="container">
                             <div class="row align-items-center">
